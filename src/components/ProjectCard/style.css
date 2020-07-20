@@ -1,0 +1,42 @@
+.wholeCard {
+    text-align: center;
+    border: 3px solid black;
+}
+
+.pTitle {
+    margin: 15px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.leftP {
+    margin: auto;
+}
+
+.rightP {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+
+.pImg {
+    height: 333px;
+    width: 600px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-block-start: 10px;
+    margin-block-end: 30px;
+    border: #c52b2b solid 2px;
+    display: inline-block;
+}
+
+button {
+    transition: background-color 0.5s !important;
+
+}
+
+button:hover {
+    background-color: #c52b2b !important;
+}
+
+.aBut {
+    padding: 5px;
+}

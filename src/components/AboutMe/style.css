@@ -1,0 +1,84 @@
+.aboutRow {
+    margin-top: 30px;
+    background-color: rgb(245, 188, 102);
+}
+
+.aboutMe {
+    text-align: center;
+    margin: 10px;
+    padding: 40px;
+    position: relative;
+    top: 13px;
+}
+
+.aboutText {
+    float: left;
+}
+
+.aboutHead {
+    font-family: 'Krona One', sans-serif;
+}
+
+.aboutBody {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#githubIcon, #linkedInIcon, #twitterIcon {
+    height: 60px;
+    transition: height 0.5s;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+}
+
+#githubIcon:hover, #linkedInIcon:hover, #twitterIcon:hover {
+    height: 70px;
+}
+
+#icon1, #icon2, #icon3 {
+    padding: 10px;
+    margin: 15px;
+    position: relative;
+    display: block;
+    left: 47px;
+}
+
+.iconRow {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+/* Mobile */
+@media only screen and (max-width: 850px) {
+
+    
+.aboutMe {
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.iconRow {
+    right: 40px;
+}
+
+#githubIcon, #linkedInIcon, #twitterIcon {
+    height: 70px;
+}
+
+#githubIcon:hover, #linkedInIcon:hover, #twitterIcon:hover {
+    height: 70px;
+}
+
+#pixelGif {
+    position: relative;
+    left: 40px;
+}
+
+}
+
+/* Non-mobile */
+@media only screen and (min-width: 851px) {
+
+}
+

@@ -1,0 +1,39 @@
+.jumboCont {
+    margin: auto;
+    height: 45vh;
+    background-image: url('../../assets/images/jumbo.jpg');
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.quote {
+    font-family: 'Reenie Beanie', cursive;
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.quote2 {
+    font-family: 'Reenie Beanie', cursive;
+    color: rgba(11, 145, 255, 0.658);
+    font-size: 50px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 850px)
+{
+    .quote {
+        font-size: 4.5vh;
+        margin-inline-start: 8vw;
+        margin-inline-end: 8vw;
+        margin-top: 0vh;
+    }
+
+    .quote2 {
+        font-size: 3vh;
+    }
+}
+

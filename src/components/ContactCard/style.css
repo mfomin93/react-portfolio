@@ -1,0 +1,15 @@
+.contactWhole {
+    margin: 40px;
+}
+
+.contactHead, .contactBody {
+    text-align: center;
+}
+
+.contactHead {
+    font-family: 'Krona One', sans-serif;
+}
+
+.contactBody {
+    font-family: 'Montserrat', sans-serif;
+}
